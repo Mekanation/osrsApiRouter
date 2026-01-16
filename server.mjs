@@ -14,7 +14,7 @@ async function getPlayer(playerName) {
   throw(error);
 }
 
-const port = 3000;
+const port = 8080;
 
 const server = createServer(async (req, res) => {
   res.setHeader('Content-Type', 'application/json')
